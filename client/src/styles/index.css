@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+
+:root{
+    --main-bg:linear-gradient(190.48deg, #1B277F -6.03%, #14195E 75.47%);
+}
+
+body{
+    min-height: 100vh;
+    background: var(--main-bg);
+}
