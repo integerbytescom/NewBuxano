@@ -1,0 +1,28 @@
+header.PlayersHeader{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: .5em;
+}
+
+header.PlayersHeader .buts-container{
+    padding: .25em;
+    background: #4D9FE3;
+    border-radius: 2em;
+}
+
+header.PlayersHeader button{
+    font-size: 13px;
+    font-weight: 500;
+    background: none;
+    color: #18166F;
+    border: none;
+    border-radius: 2em;
+    padding: .3em .75em;
+}
+header.PlayersHeader button:disabled{
+    background: var(--but-disabled);
+}
+header.PlayersHeader button:hover{
+    background: none;
+    color: var(--bs-white);
+}

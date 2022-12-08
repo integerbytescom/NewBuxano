@@ -1,0 +1,5 @@
+.BetsGroup{
+    width: calc(45% - .5em);
+    height: calc(35vh - (4em / 3) - .25em);
+    background: var(--white-op-50);
+}

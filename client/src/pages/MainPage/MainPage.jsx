@@ -1,14 +1,14 @@
 import React from 'react';
-import NavbarLeft from "../../general-components/NavbarLeft.jsx";
+import "./MainPage.css";
+import NavbarLeft from "../../general-components/NavbarLeft/NavbarLeft.jsx";
+import MainContent from "../../components/MainContent/MainContent.jsx";
 
 const MainPage = () => {
     return (
         <div className={"MainPage"}>
             <NavbarLeft />
 
-            <div className="right-container-main">
-
-            </div>
+            <MainContent />
         </div>
     );
 };

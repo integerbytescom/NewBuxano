@@ -1,11 +1,13 @@
 .NavbarLeft{
-    position: relative;
+    position: absolute;
+    left: 0;
     width: 125px;
     height: 100vh;
     display: flex;
     justify-content: space-between;
     background: var(--navbar-gradient);
     transition: .5s;
+    z-index: 100;
 }
 .NavbarLeft.open{
     width: 90%;
@@ -13,9 +15,13 @@
 
 /*img bg*/
 .NavbarLeft img.bg-lines{
+    width: 100%;
     user-select: none;
     position: absolute;
     bottom: 0;
+}
+.NavbarLeft.open img.bg-lines{
+    max-width: 50%;
 }
 
 .NavbarLeft .MenuLeft,

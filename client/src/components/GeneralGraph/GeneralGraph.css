@@ -1,0 +1,5 @@
+.GeneralGraph{
+    width: 100%;
+    height: calc(55% - (4em / 3) - .25em);
+    background: var(--white-op-50);
+}

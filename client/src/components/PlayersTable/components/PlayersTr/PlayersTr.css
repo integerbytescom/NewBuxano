@@ -1,0 +1,51 @@
+.PlayersTr{
+    margin: .5em 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.PlayersTr td{
+    display: flex;
+    align-items: center;
+    color: var(--bs-white);
+    font-weight: 500;
+    margin-right: .75em;
+}
+
+/*user td*/
+.PlayersTr td.user{
+    margin-right: 1.25em;
+}
+
+/*td with blue bg*/
+.PlayersTr td.bg{
+    background: #3944AE;
+    padding: 0 1.5em;
+    border-radius: 2em;
+}
+
+/*coins-logos td*/
+.PlayersTr td.coins-logos div.line{
+    width: 2px;
+    height: 20px;
+    margin: 0 .5em;
+    background: #4D9FE3;
+}
+.PlayersTr td.coins-logos img,
+.PlayersTr td.arrow img,
+.PlayersTr td.time-start img,
+.PlayersTr td.time-end img{
+    height: 20px;
+}
+
+/*progress*/
+.PlayersTr td.progress{
+    min-width: 120px;
+    height: 100%;
+}
+
+
+.PlayersTr td.dots{
+    padding: 0 .75em;
+    background: #4574FF;
+}

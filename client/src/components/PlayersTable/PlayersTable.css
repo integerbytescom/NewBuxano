@@ -1,0 +1,12 @@
+.PlayersTable{
+    width: calc(55% - .5em);
+    height: calc(35vh - (4em / 3) - .25em);
+}
+
+.PlayersTable::-webkit-scrollbar {
+    width: 5px;               /* ширина всей полосы прокрутки */
+}
+.PlayersTable::-webkit-scrollbar-thumb {
+    background-color: #949ECD;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+}

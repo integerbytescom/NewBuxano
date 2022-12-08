@@ -16,7 +16,7 @@ const MenuLeft = ({open}) => {
                 </div>
 
                 <div className={`user ${open}`}>
-                    <img  src="/components/NavbarLeft/avatar.svg" alt=""/>
+                    <img src="/components/NavbarLeft/avatar.svg" alt=""/>
                     {
                         open &&
                         <div className="content">

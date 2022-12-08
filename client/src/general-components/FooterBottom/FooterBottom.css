@@ -1,0 +1,5 @@
+.FooterBottom{
+    height: calc(10vh - (4em / 3) - .5em);
+    width: 100%;
+    background: var(--white-op-50);
+}

@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a840dc3-6a70-4a44-b49e-be79e92ae0c6" name="Changes" comment="add start structure">
-      <change afterPath="$PROJECT_DIR$/client/public/bgs/bg-main.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/avatar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/bg-lines.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/bg-linesopen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/but-chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/NavbarLeft/icons/but-vopros.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/general/logo-big.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/general-components/components/MenuLeft/MenuLeft.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/general-components/components/MenuLeft/MenuLeft.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/general-components/components/MenuLeft/MenuLeftData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/general-components/components/MenuPages/MenuPages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/general-components/components/MenuPages/MenuPages.jsx" afterDir="false" />
+    <list default="true" id="9a840dc3-6a70-4a44-b49e-be79e92ae0c6" name="Changes" comment="redact NavbarLeft.jsx and add PlayersTable.jsx">
+      <change afterPath="$PROJECT_DIR$/client/public/general/test-td/arrow-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/general/test-td/coin-logo1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/general/test-td/coin-logo2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/general/test-td/dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/general/test-td/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/general/test-td/user-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MainContent/MainContent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MainContent/MainContent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersHeader/PlayersHeader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersHeader/PlayersHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/components/MenuLeft/MenuLeft.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuLeft/MenuLeft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/components/MenuLeft/MenuLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuLeft/MenuLeft.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/components/MenuLeft/MenuLeftData.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuLeft/MenuLeftData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/components/MenuPages/MenuPages.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuPages/MenuPages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/components/MenuPages/MenuPages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuPages/MenuPages.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/index.css" afterDir="false" />
     </list>
@@ -53,23 +58,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/work/react/NewBuxano/client/public/general",
+    "last_opened_file_path": "C:/work/react/NewBuxano/client/public/general/test-td",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\react\NewBuxano\client\public\general\test-td" />
       <recent name="C:\work\react\NewBuxano\client\public\general" />
       <recent name="C:\work\react\NewBuxano\client\public\components\NavbarLeft" />
       <recent name="C:\work\react\NewBuxano\client\public\components\NavbarLeft\icons" />
       <recent name="C:\work\react\NewBuxano\client\public\bgs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\react\NewBuxano\client\public\general\test-td" />
+      <recent name="C:\work\react\NewBuxano\client\src\general-components\NavbarLeft\components" />
+      <recent name="C:\work\react\NewBuxano\client\src\general-components\NavbarLeft" />
       <recent name="C:\work\react\NewBuxano\client\src\general-components\components\MenuLeft" />
       <recent name="C:\work\react\NewBuxano\client\public\components\NavbarLeft\icons" />
-      <recent name="C:\work\react\NewBuxano\client\public\components\NavbarLeft" />
-      <recent name="C:\work\react\NewBuxano\client" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +89,9 @@
       <updated>1670418463323</updated>
       <workItem from="1670418465125" duration="210000" />
       <workItem from="1670418702737" duration="3493000" />
-      <workItem from="1670483753991" duration="10124000" />
+      <workItem from="1670483753991" duration="11167000" />
+      <workItem from="1670495071186" duration="4854000" />
+      <workItem from="1670503173615" duration="6332000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670419030647</created>
@@ -98,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670423621576</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add NavbarLeft.jsx">
+      <created>1670493990142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670493990142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add start structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add start structure" />
+    <MESSAGE value="add NavbarLeft.jsx" />
+    <MESSAGE value="redact NavbarLeft.jsx and add PlayersTable.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="redact NavbarLeft.jsx and add PlayersTable.jsx" />
   </component>
 </project>

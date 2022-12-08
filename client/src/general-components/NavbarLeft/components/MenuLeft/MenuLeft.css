@@ -56,6 +56,7 @@
     align-items: center;
     margin: .35em auto;
     text-decoration: none;
+    transition: .3s;
 }
 .NavbarLeft .MenuLeft.open .menu a{
     margin: .35em 0;
@@ -63,6 +64,10 @@
 .NavbarLeft .MenuLeft .menu a p{
     margin: 0 0 0 .5em;
     color: var(--bs-white);
+}
+/*hover*/
+.NavbarLeft .MenuLeft .menu a:hover{
+    opacity: .5;
 }
 
 /*footer*/
