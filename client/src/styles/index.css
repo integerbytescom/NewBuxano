@@ -8,10 +8,17 @@
 
 
 :root{
-    --main-bg:linear-gradient(190.48deg, #1B277F -6.03%, #14195E 75.47%);
+    --white-op-50: rgba(255, 255, 255, 0.50);
+
+    --main-bg: #0B0D41;
+    --navbar-gradient: linear-gradient(190.48deg, #1B277F -6.03%, #14195E 75.47%);
 }
 
 body{
     min-height: 100vh;
-    background: var(--main-bg);
+    background-color: var(--main-bg);
+    background-image: url("public/bgs/bg-main.svg");
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }

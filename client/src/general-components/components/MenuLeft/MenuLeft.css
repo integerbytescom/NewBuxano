@@ -1,0 +1,105 @@
+.NavbarLeft .MenuLeft{
+    width: 85px;
+    padding: 2em 1em;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.NavbarLeft .MenuLeft.open{
+    justify-content: flex-start;
+    padding: 2em;
+    width: 300px;
+}
+
+/*left block*/
+
+/*header*/
+.NavbarLeft .MenuLeft header{
+    display: flex;
+    flex-direction: column;
+}
+.NavbarLeft .MenuLeft header div.logo{
+    margin: 0 auto 1.5em;
+}
+/*user data*/
+.NavbarLeft .MenuLeft header .user.open{
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.NavbarLeft .MenuLeft header .user.open .content{
+    width: 100%;
+    margin-top: 1em;
+    color: var(--bs-white);
+    text-align: center;
+}
+.NavbarLeft .MenuLeft header .user.open img{
+    width: 75px;
+}
+.NavbarLeft .MenuLeft header .user.open .content h6{
+    margin-bottom: 0;
+}
+.NavbarLeft .MenuLeft header .user.open .content p.small{
+    opacity: .5;
+    margin-bottom: 0;
+}
+
+/*menu*/
+.NavbarLeft .MenuLeft .menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.NavbarLeft .MenuLeft .menu a{
+    display: flex;
+    align-items: center;
+    margin: .35em auto;
+    text-decoration: none;
+}
+.NavbarLeft .MenuLeft.open .menu a{
+    margin: .35em 0;
+}
+.NavbarLeft .MenuLeft .menu a p{
+    margin: 0 0 0 .5em;
+    color: var(--bs-white);
+}
+
+/*footer*/
+.NavbarLeft .MenuLeft footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.NavbarLeft .MenuLeft footer.open{
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.NavbarLeft .MenuLeft footer button{
+    background: none;
+    border: 1px solid #949ECD;
+    border-radius: 2em;
+    padding: .25em 0;
+
+    /*flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarLeft .MenuLeft footer.open button{
+    width: calc(50% - .25em);
+    height: 30px;
+}
+
+.NavbarLeft .MenuLeft footer button img{
+    height: 20px;
+}
+.NavbarLeft .MenuLeft footer button:first-child{
+    margin-bottom: 1em;
+}
+.NavbarLeft .MenuLeft footer button p{
+    margin: 0 0 0 .5em;
+    color: #949ECD;
+    font-weight: 500;
+}
