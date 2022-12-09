@@ -1,7 +1,7 @@
 .BetsGroup .right{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: flex-start;
     width: calc(45% - .5em);
 }
 

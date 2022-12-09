@@ -23,7 +23,7 @@
 body{
     min-height: 100vh;
     background-color: var(--main-bg);
-    background-image: url("/bgs/bg-main.svg");
+    background-image: url("public/bgs/bg-main.svg");
     background-size: contain;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -31,7 +31,8 @@ body{
 
 /*полосы прокрутки*/
 *::-webkit-scrollbar {
-    width: 5px;               /* ширина всей полосы прокрутки */
+    height: 5px;/* высота всей полосы прокрутки */
+    width: 5px; /* ширина всей полосы прокрутки */
 }
 *::-webkit-scrollbar-thumb {
     background-color: #949ECD;    /* цвет бегунка */

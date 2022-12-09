@@ -24,16 +24,12 @@ const PlayersTr = () => {
 
             <td className={"time-start bg"}>
                 <p className="small m-0">
-                    04/03/2022<br />
                     15:10:39
                 </p>
             </td>
 
             <td className={"time-end bg"}>
-                <p className="small m-0">
-                    04/03/2022<br />
-                    15:10:39
-                </p>
+                <p className="small m-0">16:10:39</p>
             </td>
 
             <td className={"dots bg"}>

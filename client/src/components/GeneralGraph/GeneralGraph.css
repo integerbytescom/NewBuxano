@@ -1,5 +1,6 @@
 .GeneralGraph{
     width: 100%;
-    height: calc(55% - (4em / 3) - .25em);
+    height: calc(55% - .25em);
+    min-height: 350px;
     background: var(--white-op-50);
 }

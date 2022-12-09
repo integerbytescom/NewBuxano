@@ -1,6 +1,7 @@
 .PlayersTable{
     width: calc(55% - .5em);
-    height: calc(35vh - (4em / 3) - .25em);
+    height: calc(35vh - (2em / 3) - .25em);
+    min-height: 200px;
 }
 .PlayersTable.open{
     width: 100%;
