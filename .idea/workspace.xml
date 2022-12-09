@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a840dc3-6a70-4a44-b49e-be79e92ae0c6" name="Changes" comment="redact NavbarLeft.jsx and add PlayersTable.jsx">
-      <change afterPath="$PROJECT_DIR$/client/public/components/BetsGroup/call.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/components/BetsGroup/put.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupLeft/BetsGroupLeft.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupLeft/BetsGroupLeft.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottomLinks.js" afterDir="false" />
+    <list default="true" id="9a840dc3-6a70-4a44-b49e-be79e92ae0c6" name="Changes" comment="add BetsGroup.jsx and FooterBottom.jsx">
+      <change afterPath="$PROJECT_DIR$/client/src/redux-features/navbarLeftSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/redux-store/reduxStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/MainContent/MainContent.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MainContent/MainContent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MainContent/MainContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MainContent/MainContent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuLeft/MenuLeft.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuLeft/MenuLeft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuPages/MenuPages.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuPages/MenuPages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuPages/MenuPages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/components/MenuPages/MenuPages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kirilldubasov/Desktop/React/NewBuxano",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kirilldubasov/Desktop/React/NewBuxano&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\react\NewBuxano\client\public\general\test-td" />
@@ -77,7 +78,9 @@
       <workItem from="1670483753991" duration="11167000" />
       <workItem from="1670495071186" duration="4854000" />
       <workItem from="1670503173615" duration="6332000" />
-      <workItem from="1670570997707" duration="5751000" />
+      <workItem from="1670570997707" duration="5942000" />
+      <workItem from="1670585695688" duration="5560000" />
+      <workItem from="1670593623806" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670419030647</created>
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670493990142</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add BetsGroup.jsx and FooterBottom.jsx">
+      <created>1670577032145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670577032145</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +132,7 @@
     <MESSAGE value="add start structure" />
     <MESSAGE value="add NavbarLeft.jsx" />
     <MESSAGE value="redact NavbarLeft.jsx and add PlayersTable.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="redact NavbarLeft.jsx and add PlayersTable.jsx" />
+    <MESSAGE value="add BetsGroup.jsx and FooterBottom.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BetsGroup.jsx and FooterBottom.jsx" />
   </component>
 </project>

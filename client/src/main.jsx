@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {BrowserRouter} from "react-router-dom";
 import Router from "./Router.jsx";
+import {reduxStore} from "./redux-store/reduxStore";
+import {Provider} from "react-redux";
 
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,9 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
         <React.StrictMode>
-            <Router />
+            <BrowserRouter>
+                <Provider store={reduxStore}>
+                    <Router />
+                </Provider>
+            </BrowserRouter>
         </React.StrictMode>
-    </BrowserRouter>
 )

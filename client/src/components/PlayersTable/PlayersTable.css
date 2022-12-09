@@ -2,3 +2,6 @@
     width: calc(55% - .5em);
     height: calc(35vh - (4em / 3) - .25em);
 }
+.PlayersTable.open{
+    width: 100%;
+}
