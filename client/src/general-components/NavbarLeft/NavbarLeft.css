@@ -1,5 +1,5 @@
 .NavbarLeft{
-    position: absolute;
+    position: fixed;
     left: 0;
     width: 125px;
     height: 100vh;

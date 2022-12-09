@@ -1,0 +1,52 @@
+.BetsGroup .left{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: calc(55% - .5em);
+}
+
+/*left container*/
+.BetsGroup .left-inner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.BetsGroup .left-inner header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/*text (p.small)*/
+.BetsGroup .left-inner header p.small{
+    width: auto;
+}
+.BetsGroup .left-inner p.small{
+    width: 100%;
+    margin: 0;
+    color: var(--bs-white);
+    font-weight: 300;
+}
+
+/*buttons*/
+.BetsGroup .left-inner button{
+    margin-right: .5em;
+    padding: .25em .75em;
+    font-size: 14px;
+    font-weight: 500;
+    color: #151B64;
+    background: #4D9FE3;
+    border: none;
+    border-radius: 2em;
+}
+.BetsGroup .left-inner button:disabled{
+    background: var(--bs-white);
+}
+
+/*inputs*/
+.BetsGroup .left-inner input,
+.BetsGroup .left-inner select{
+    background: none;
+    border: 1px solid #4D9FE3;
+    color: var(--bs-white);
+    font-weight: 500;
+}

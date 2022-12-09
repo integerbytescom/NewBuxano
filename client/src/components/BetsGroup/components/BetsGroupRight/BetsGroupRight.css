@@ -1,0 +1,59 @@
+.BetsGroup .right{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: calc(45% - .5em);
+}
+
+.BetsGroup .right header{
+    display: flex;
+    justify-content: space-between;
+}
+.BetsGroup .right header select{
+    width: calc(50% - .25em);
+    padding: .5em;
+    color: var(--bs-white);
+    font-weight: 500;
+    text-align: center;
+    border-radius: .15em;
+    background: linear-gradient(190.48deg, #1B277F -6.03%, #14195E 75.47%);
+    border: 1px solid #3944AE;
+}
+
+/*price value container*/
+.BetsGroup .right .now-price{
+    width: 100%;
+    margin: 1em 0;
+    padding: .75em;
+    text-align: center;
+    border: 1px solid #28A745;
+    color: var(--bs-white);
+    border-radius: .15em;
+}
+
+
+/*buttons call put*/
+.BetsGroup .right button.bet{
+    width: 100%;
+    padding: .25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bs-white);
+    font-size: 1.4em;
+    font-weight: 500;
+    border: none;
+    border-radius: .15em;
+}
+.BetsGroup .right button.bet.call{
+    background: #28A745;
+}
+.BetsGroup .right button.bet.put{
+    background: #DC3545;
+}
+.BetsGroup .right button.bet img{
+    height: 35px;
+}
+.BetsGroup .right .buttons-container button:first-child{
+    margin-bottom: .25em;
+}

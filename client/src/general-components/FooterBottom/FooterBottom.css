@@ -1,5 +1,17 @@
 .FooterBottom{
-    height: calc(10vh - (4em / 3) - .5em);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    background: var(--white-op-50);
+    height: calc(10vh - (4em / 3) - .5em);
+}
+
+.FooterBottom a{
+    margin: 0 .75em;
+    color: #949ECD;
+    text-decoration: none;
+    transition: .3s;
+}
+.FooterBottom a:hover{
+    color: var(--bs-white);
 }

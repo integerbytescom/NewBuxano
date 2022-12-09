@@ -28,3 +28,12 @@ body{
     background-position: center bottom;
     background-repeat: no-repeat;
 }
+
+/*полосы прокрутки*/
+*::-webkit-scrollbar {
+    width: 5px;               /* ширина всей полосы прокрутки */
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #949ECD;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
+}
