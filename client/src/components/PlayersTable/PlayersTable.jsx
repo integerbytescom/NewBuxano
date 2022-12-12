@@ -3,9 +3,9 @@ import "./PlayersTable.css";
 import PlayersHeader from "./components/PlayersHeader/PlayersHeader.jsx";
 import PlayersTr from "./components/PlayersTr/PlayersTr.jsx";
 
-const PlayersTable = () => {
+const PlayersTable = ({showNav}) => {
     return (
-        <div className={"PlayersTable"} style={{overflowY:"auto"}}>
+        <div className={`PlayersTable ${showNav}`} style={{overflowY:"auto"}}>
             <PlayersHeader />
 
             <table className={"w-100 my-2"}>

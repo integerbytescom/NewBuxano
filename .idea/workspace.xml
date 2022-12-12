@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="405e3f05-a1fb-4e93-b1db-c5d66304c63c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="9a840dc3-6a70-4a44-b49e-be79e92ae0c6" name="Changes" comment="add reduxStore.js, redact NavbarLeft.jsx">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,32 +23,117 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2InvBmk6Q3OWki8zabjgbrT8iEA" />
+  <component name="ProjectId" id="2IaSzTMBTC5qy95vgEYmr6euIFQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kirilldubasov/Desktop/React/NewBuxano&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\react\NewBuxano\client\public\general\test-td" />
+      <recent name="C:\work\react\NewBuxano\client\public\general" />
+      <recent name="C:\work\react\NewBuxano\client\public\components\NavbarLeft" />
+      <recent name="C:\work\react\NewBuxano\client\public\components\NavbarLeft\icons" />
+      <recent name="C:\work\react\NewBuxano\client\public\bgs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/public/components/BetsGroup" />
+      <recent name="C:\work\react\NewBuxano\client\public\general\test-td" />
+      <recent name="C:\work\react\NewBuxano\client\src\general-components\NavbarLeft\components" />
+      <recent name="C:\work\react\NewBuxano\client\src\general-components\NavbarLeft" />
+      <recent name="C:\work\react\NewBuxano\client\src\general-components\components\MenuLeft" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="405e3f05-a1fb-4e93-b1db-c5d66304c63c" name="Changes" comment="" />
-      <created>1670830031239</created>
+      <changelist id="9a840dc3-6a70-4a44-b49e-be79e92ae0c6" name="Changes" comment="" />
+      <created>1670418463323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1670830031239</updated>
-      <workItem from="1670830036377" duration="8000" />
+      <updated>1670418463323</updated>
+      <workItem from="1670418465125" duration="210000" />
+      <workItem from="1670418702737" duration="3493000" />
+      <workItem from="1670483753991" duration="11167000" />
+      <workItem from="1670495071186" duration="4854000" />
+      <workItem from="1670503173615" duration="6332000" />
+      <workItem from="1670570997707" duration="5942000" />
+      <workItem from="1670585695688" duration="5560000" />
+      <workItem from="1670593623806" duration="3054000" />
+      <workItem from="1670597965974" duration="1897000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1670419030647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670419030647</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add start structure">
+      <created>1670423621576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670423621576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add NavbarLeft.jsx">
+      <created>1670493990142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670493990142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add BetsGroup.jsx and FooterBottom.jsx">
+      <created>1670577032145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670577032145</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add reduxStore.js, redact NavbarLeft.jsx">
+      <created>1670596966289</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670596966289</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add start structure" />
+    <MESSAGE value="add NavbarLeft.jsx" />
+    <MESSAGE value="redact NavbarLeft.jsx and add PlayersTable.jsx" />
+    <MESSAGE value="add BetsGroup.jsx and FooterBottom.jsx" />
+    <MESSAGE value="add reduxStore.js, redact NavbarLeft.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reduxStore.js, redact NavbarLeft.jsx" />
   </component>
 </project>

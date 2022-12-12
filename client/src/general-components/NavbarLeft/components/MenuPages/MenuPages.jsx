@@ -4,7 +4,7 @@ import "./MenuPages.css";
 const MenuPages = () => {
     return (
         <div className={"MenuPages"}>
-            <h1>Content</h1>
+            <h3>Content</h3>
         </div>
     );
 };

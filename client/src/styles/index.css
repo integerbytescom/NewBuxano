@@ -23,8 +23,18 @@
 body{
     min-height: 100vh;
     background-color: var(--main-bg);
-    background-image: url("/bgs/bg-main.svg");
+    background-image: url("public/bgs/bg-main.svg");
     background-size: contain;
     background-position: center bottom;
     background-repeat: no-repeat;
+}
+
+/*полосы прокрутки*/
+*::-webkit-scrollbar {
+    height: 5px;/* высота всей полосы прокрутки */
+    width: 5px; /* ширина всей полосы прокрутки */
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #949ECD;    /* цвет бегунка */
+    border-radius: 20px;       /* округлось бегунка */
 }

@@ -1,7 +1,7 @@
 .PlayersTr{
     margin: .5em 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 }
 .PlayersTr td{
@@ -13,8 +13,8 @@
 }
 
 /*user td*/
-.PlayersTr td.user{
-    margin-right: 1.25em;
+.PlayersTr td.user img{
+    width: 35px;
 }
 
 /*td with blue bg*/
@@ -38,14 +38,12 @@
     height: 20px;
 }
 
-/*progress*/
-.PlayersTr td.progress{
-    min-width: 120px;
-    height: 100%;
-}
-
-
 .PlayersTr td.dots{
     padding: 0 .75em;
     background: #4574FF;
+    transition: .3s;
+    cursor: pointer;
+}
+.PlayersTr td.dots:hover{
+    background: #3944AE;
 }
