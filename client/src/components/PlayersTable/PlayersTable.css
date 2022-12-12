@@ -1,8 +1,17 @@
 .PlayersTable{
     width: calc(55% - .5em);
+    max-width: 900px;
     height: calc(35vh - (2em / 3) - .25em);
     min-height: 200px;
+    margin: auto;
+
 }
 .PlayersTable.open{
     width: 100%;
+}
+
+.PlayersTable .table-container{
+    height: calc(100% - 3em);
+    min-height: 200px;
+    /*background: red;*/
 }

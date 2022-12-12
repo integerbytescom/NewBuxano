@@ -1,6 +1,6 @@
 export const FooterBottomLinks = [
     {
-        text:"© BUXANO 2020",
+        text:`© BUXANO ${new Date().getFullYear()}`,
         link:"/",
     },
     {

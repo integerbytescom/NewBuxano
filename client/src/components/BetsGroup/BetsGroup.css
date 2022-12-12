@@ -1,8 +1,10 @@
 .BetsGroup{
     display: flex;
     justify-content: space-between;
-    align-content: flex-start;
+    align-items: center;
     width: calc(45% - .5em);
+    max-width: 600px;
     height: calc(35vh - (2em / 3) - .25em);
     min-height: 200px;
+    margin: auto;
 }

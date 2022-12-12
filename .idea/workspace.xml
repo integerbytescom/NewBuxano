@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a840dc3-6a70-4a44-b49e-be79e92ae0c6" name="Changes" comment="add reduxStore.js, redact NavbarLeft.jsx">
+    <list default="true" id="405e3f05-a1fb-4e93-b1db-c5d66304c63c" name="Changes" comment="workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupLeft/BetsGroupLeft.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupLeft/BetsGroupLeft.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/components/PlayersTr/PlayersTr.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottomLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottomLinks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kirilldubasov/Desktop/React/NewBuxano&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/work/react/NewBuxano",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\react\NewBuxano\client\public\general\test-td" />
@@ -60,7 +62,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9a840dc3-6a70-4a44-b49e-be79e92ae0c6" name="Changes" comment="" />
+      <changelist id="405e3f05-a1fb-4e93-b1db-c5d66304c63c" name="Changes" comment="workspace.xml" />
       <created>1670418463323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -74,6 +76,7 @@
       <workItem from="1670585695688" duration="5560000" />
       <workItem from="1670593623806" duration="3054000" />
       <workItem from="1670597965974" duration="1897000" />
+      <workItem from="1670843169598" duration="5724000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670419030647</created>
