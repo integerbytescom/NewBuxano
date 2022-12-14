@@ -3,21 +3,18 @@ import "./BetsGroupRight.css";
 import {Form} from "react-bootstrap";
 
 const BetsGroupRight = () => {
+
+    const pairs = ["BTCUSD","ETHUSD","EOSUSD","XMRUSD","ETHBTC","ADKUSD"];
+
     return (
         <div className={"BetsGroupRight right"}>
             <header className={"w-100"}>
                 <Form.Select size={"sm"}>
-                    <option value="1">BTC</option>
-                    <option value="2">USD</option>
-                    <option value="3">ETH</option>
-                    <option value="3">ADK</option>
-                </Form.Select>
-
-                <Form.Select size={"sm"}>
-                    <option value="1">USD</option>
-                    <option value="2">ETH</option>
-                    <option value="3">ADK</option>
-                    <option value="3">BTC</option>
+                    {
+                        pairs.map(elem => (
+                            <option key={elem} value={elem}>{elem}</option>
+                        ))
+                    }
                 </Form.Select>
             </header>
 

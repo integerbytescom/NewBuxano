@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="405e3f05-a1fb-4e93-b1db-c5d66304c63c" name="Changes" comment="workspace.xml">
+    <list default="true" id="405e3f05-a1fb-4e93-b1db-c5d66304c63c" name="Changes" comment="some small redacts">
+      <change afterPath="$PROJECT_DIR$/client/src/redux-features/selectPairsSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupLeft/BetsGroupLeft.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupLeft/BetsGroupLeft.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PlayersTable/PlayersTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottomLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/FooterBottom/FooterBottomLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux-store/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux-store/reduxStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,14 @@
       <workItem from="1670585695688" duration="5560000" />
       <workItem from="1670593623806" duration="3054000" />
       <workItem from="1670597965974" duration="1897000" />
-      <workItem from="1670843169598" duration="5724000" />
+      <workItem from="1670843169598" duration="5760000" />
+      <workItem from="1670915658118" duration="629000" />
+      <workItem from="1670937890605" duration="192000" />
+      <workItem from="1670938093145" duration="9000" />
+      <workItem from="1670940877061" duration="21000" />
+      <workItem from="1671002093721" duration="74000" />
+      <workItem from="1671022120426" duration="437000" />
+      <workItem from="1671024937119" duration="3032000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670419030647</created>
@@ -113,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670596966289</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some small redacts">
+      <created>1670851766962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670851766962</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +148,7 @@
     <MESSAGE value="redact NavbarLeft.jsx and add PlayersTable.jsx" />
     <MESSAGE value="add BetsGroup.jsx and FooterBottom.jsx" />
     <MESSAGE value="add reduxStore.js, redact NavbarLeft.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="add reduxStore.js, redact NavbarLeft.jsx" />
+    <MESSAGE value="some small redacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="some small redacts" />
   </component>
 </project>

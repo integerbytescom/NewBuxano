@@ -12,7 +12,7 @@ const NavbarLeft = () => {
     //show value from redux
     const dispatch = useDispatch();
     const showNav = useSelector(state => state.navbarLeft.show);
-    console.log(showNav)
+    console.log("show nav: ",showNav)
 
     return (
         <div className={`NavbarLeft ${showNav}`}>
