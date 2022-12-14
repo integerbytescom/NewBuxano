@@ -15,6 +15,7 @@ const GeneralGraph = () => {
                 theme="dark"
                 autosize
                 symbol={selectPair}
+                save_image={false}
             />
         </div>
     );

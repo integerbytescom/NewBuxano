@@ -11,7 +11,7 @@ export const selectPairsSlice = createSlice({
     reducers: {
         //для смены пары
         setPair: (state,action) => {
-            state.pair = action
+            state.pair = action.payload;
         }
     }
 })

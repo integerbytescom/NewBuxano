@@ -19,7 +19,9 @@
     background: linear-gradient(190.48deg, #1B277F -6.03%, #14195E 75.47%);
     border: 1px solid #3944AE;
 }
-
+.BetsGroup .right header select option{
+    color: var(--bs-dark);
+}
 /*price value container*/
 .BetsGroup .right .now-price{
     width: 100%;

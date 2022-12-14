@@ -1,18 +1,26 @@
 import React from 'react';
 import "./BetsGroupRight.css";
 import {Form} from "react-bootstrap";
+import {useDispatch} from "react-redux";
+import {setPair} from "../../../../redux-features/selectPairsSlice.js";
 
 const BetsGroupRight = () => {
 
+    const dispatch = useDispatch();
     const pairs = ["BTCUSD","ETHUSD","EOSUSD","XMRUSD","ETHBTC","ADKUSD"];
 
     return (
         <div className={"BetsGroupRight right"}>
             <header className={"w-100"}>
-                <Form.Select size={"sm"}>
+                <Form.Select
+                    onChange={e => {dispatch(setPair(e.target.value))}}
+                    size={"sm"}
+                >
                     {
                         pairs.map(elem => (
-                            <option key={elem} value={elem}>{elem}</option>
+                            <option key={elem} value={elem}>
+                                {elem}
+                            </option>
                         ))
                     }
                 </Form.Select>

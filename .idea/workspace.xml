@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="405e3f05-a1fb-4e93-b1db-c5d66304c63c" name="Changes" comment="some small redacts">
-      <change afterPath="$PROJECT_DIR$/client/src/redux-features/selectPairsSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/BetsGroup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BetsGroup/components/BetsGroupRight/BetsGroupRight.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/GeneralGraph/GeneralGraph.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/general-components/NavbarLeft/NavbarLeft.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/redux-store/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux-store/reduxStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux-features/selectPairsSlice.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux-features/selectPairsSlice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/work/react/NewBuxano",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/work/react/NewBuxano&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\react\NewBuxano\client\public\general\test-td" />
@@ -81,6 +81,7 @@
       <workItem from="1671002093721" duration="74000" />
       <workItem from="1671022120426" duration="437000" />
       <workItem from="1671024937119" duration="3032000" />
+      <workItem from="1671038315764" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670419030647</created>
