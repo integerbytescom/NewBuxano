@@ -1,6 +1,5 @@
 import React from 'react';
 import MenuLeft from "./components/MenuLeft/MenuLeft.jsx";
-import MenuPages from "./components/MenuPages/MenuPages.jsx";
 
 //css
 import "./NavbarLeft.css";
@@ -23,11 +22,9 @@ const NavbarLeft = () => {
             {/*left menu*/}
             <MenuLeft open={showNav} />
 
-            {/*pages in menu*/}
-            {showNav && <MenuPages />}
-
             <div className="right" onClick={() => dispatch(setShow())}>
                 <img
+                    height={25}
                     src="/components/NavbarLeft/arrow.svg"
                     alt=""
                     className={Boolean(showNav) ? "reverse" : ""}

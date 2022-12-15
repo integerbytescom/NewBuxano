@@ -7,43 +7,11 @@
     flex-wrap: wrap;
 }
 .NavbarLeft .MenuLeft.open{
-    justify-content: flex-start;
     padding: 2em 1em;
-    width: 250px;
+    width: 100%;
 }
 
 /*left block*/
-
-/*header*/
-.NavbarLeft .MenuLeft header{
-    display: flex;
-    flex-direction: column;
-}
-.NavbarLeft .MenuLeft header div.logo{
-    margin: 0 auto 1.5em;
-}
-/*user data*/
-.NavbarLeft .MenuLeft header .user.open{
-   display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.NavbarLeft .MenuLeft header .user.open .content{
-    width: 100%;
-    margin-top: 1em;
-    color: var(--bs-white);
-    text-align: center;
-}
-.NavbarLeft .MenuLeft header .user.open img{
-    width: 75px;
-}
-.NavbarLeft .MenuLeft header .user.open .content h6{
-    margin-bottom: 0;
-}
-.NavbarLeft .MenuLeft header .user.open .content p.small{
-    opacity: .5;
-    margin-bottom: 0;
-}
 
 /*menu*/
 .NavbarLeft .MenuLeft .menu{
@@ -51,10 +19,15 @@
     display: flex;
     flex-direction: column;
 }
+.NavbarLeft .MenuLeft.open .menu,
+.NavbarLeft .MenuLeft.open footer{
+    padding-left: 2em;
+}
 .NavbarLeft .MenuLeft .menu a{
     display: flex;
     align-items: center;
     margin: .35em auto;
+    font-weight: 500;
     text-decoration: none;
     transition: .3s;
 }
@@ -68,43 +41,4 @@
 /*hover*/
 .NavbarLeft .MenuLeft .menu a:hover{
     opacity: .5;
-}
-
-/*footer*/
-.NavbarLeft .MenuLeft footer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.NavbarLeft .MenuLeft footer.open{
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.NavbarLeft .MenuLeft footer button{
-    background: none;
-    border: 1px solid #949ECD;
-    border-radius: 2em;
-    padding: .25em 0;
-
-    /*flex*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.NavbarLeft .MenuLeft footer.open button{
-    width: calc(50% - .25em);
-    height: 30px;
-}
-
-.NavbarLeft .MenuLeft footer button img{
-    height: 20px;
-}
-.NavbarLeft .MenuLeft footer button:first-child{
-    margin-bottom: 1em;
-}
-.NavbarLeft .MenuLeft footer button p{
-    margin: 0 0 0 .5em;
-    color: #949ECD;
-    font-weight: 500;
 }

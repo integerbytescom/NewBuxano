@@ -9,7 +9,7 @@
     transition: .5s;
 }
 .NavbarLeft.open{
-    width: 35%;
+    width: 450px;
 }
 
 /*img bg*/
@@ -31,18 +31,19 @@
     width: 30px;
     height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     cursor: pointer;
     transition: .3s;
 }
 .NavbarLeft .right img{
     user-select: none;
-    transition: .3s;
+    transition: .15s;
 }
 .NavbarLeft .right img.reverse{
     transform: rotate(180deg);
 }
 .NavbarLeft .right:hover{
     opacity: .5;
-    box-shadow: inset -7px 0 10px -7px var(--bs-white);
+    /*box-shadow: inset -7px 0 10px -7px var(--bs-white);*/
 }

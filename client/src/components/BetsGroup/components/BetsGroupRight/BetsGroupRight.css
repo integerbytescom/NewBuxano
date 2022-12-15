@@ -26,11 +26,15 @@
 .BetsGroup .right .now-price{
     width: 100%;
     margin: 1em 0;
-    padding: .75em;
+    padding: .65em;
     text-align: center;
     border: 1px solid #28A745;
     color: var(--bs-white);
     border-radius: .15em;
+}
+.BetsGroup .right .now-price p.small{
+    font-size: 12px;
+    font-weight: 200;
 }
 
 

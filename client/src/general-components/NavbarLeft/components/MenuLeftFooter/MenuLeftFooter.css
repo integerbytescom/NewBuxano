@@ -1,0 +1,38 @@
+/*footer*/
+.NavbarLeft .MenuLeft footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.NavbarLeft .MenuLeft footer.open{
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.NavbarLeft .MenuLeft footer button{
+    background: none;
+    border: 1px solid #949ECD;
+    border-radius: 2em;
+    padding: .25em 0;
+
+    /*flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarLeft .MenuLeft footer.open button{
+    width: calc(50% - .25em);
+    height: 30px;
+}
+
+.NavbarLeft .MenuLeft footer button img{
+    height: 20px;
+}
+.NavbarLeft .MenuLeft footer button:first-child{
+    margin-bottom: 1em;
+}
+.NavbarLeft .MenuLeft footer button p{
+    margin: 0 0 0 .5em;
+    color: #949ECD;
+    font-weight: 500;
+}

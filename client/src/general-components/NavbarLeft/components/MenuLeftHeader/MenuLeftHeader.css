@@ -1,0 +1,33 @@
+/*header*/
+.NavbarLeft .MenuLeft header{
+    display: flex;
+    flex-direction: column;
+}
+.NavbarLeft .MenuLeft header div.logo{
+    margin: 0 auto 1.5em;
+}
+/*user data*/
+.NavbarLeft .MenuLeft header .user.open{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.NavbarLeft .MenuLeft header .user.open .content{
+    width: 100%;
+    margin-top: .5em;
+    color: var(--bs-white);
+    text-align: center;
+}
+.NavbarLeft .MenuLeft header .user img{
+    border-radius: 50%;
+}
+.NavbarLeft .MenuLeft header .user.open img{
+    width: 85px;
+}
+.NavbarLeft .MenuLeft header .user.open .content h6{
+    margin-bottom: 0;
+}
+.NavbarLeft .MenuLeft header .user.open .content p.small{
+    opacity: .5;
+    margin-bottom: 0;
+}
