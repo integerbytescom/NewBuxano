@@ -30,7 +30,7 @@ const BetsGroupRight = () => {
 
             <div className="now-price">
                 <h5 className={"m-0"}>
-                    <h5 className={"m-0"}>16836.04</h5>
+                    16836.04
                     <p className={"small m-0"}>
                         {selectPair.slice(3,selectPair.length)} in 1{selectPair.slice(0,3)}
                     </p>

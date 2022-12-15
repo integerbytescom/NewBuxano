@@ -1,5 +1,5 @@
 .PlayersTable{
-    width: calc(55% - .5em);
+    width: calc(55% - 1em);
     max-width: 900px;
     height: calc(35vh - (2em / 3) - .25em);
     min-height: 200px;

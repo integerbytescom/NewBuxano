@@ -1,7 +1,7 @@
 .PlayersTr{
     margin: .5em 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
 }
 .PlayersTr td{
@@ -9,7 +9,10 @@
     align-items: center;
     color: var(--bs-white);
     font-weight: 500;
-    margin-right: .75em;
+    margin-right: .25em;
+}
+.PlayersTr td:last-child{
+    margin-right: 0;
 }
 
 /*user td*/
@@ -20,7 +23,7 @@
 /*td with blue bg*/
 .PlayersTr td.bg{
     background: #3944AE;
-    padding: 0 1.5em;
+    padding: 0 .85em;
     border-radius: 2em;
 }
 

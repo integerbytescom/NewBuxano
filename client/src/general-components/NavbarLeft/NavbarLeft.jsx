@@ -5,13 +5,16 @@ import MenuLeft from "./components/MenuLeft/MenuLeft.jsx";
 import "./NavbarLeft.css";
 import {useDispatch, useSelector} from "react-redux";
 import {setShow} from "../../redux-features/navbarLeftSlice.js";
+import NavbarPages from "../../components/NavbarPages/NavbarPages.jsx";
 
 const NavbarLeft = () => {
 
     //show value from redux
     const dispatch = useDispatch();
     const showNav = useSelector(state => state.navbarLeft.show);
-    console.log("show nav: ",showNav)
+    const showPage = useSelector(state => state.selectPage.page);
+    console.log("show nav: ",showNav);
+    console.log("show page: ",showPage);
 
     return (
         <div className={`NavbarLeft ${showNav}`}>
@@ -20,7 +23,7 @@ const NavbarLeft = () => {
             <img src={`/components/NavbarLeft/bg-lines${showNav}.svg`} alt="" className={"bg-lines"}/>
 
             {/*left menu*/}
-            <MenuLeft open={showNav} />
+            <MenuLeft open={showNav} showPage={showPage} />
 
             <div className="right" onClick={() => dispatch(setShow())}>
                 <img
