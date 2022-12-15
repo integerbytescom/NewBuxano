@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./BetsGroupRight.css";
 import {Form} from "react-bootstrap";
 import {useDispatch, useSelector} from "react-redux";
 import {setPair} from "../../../../redux-features/selectPairsSlice.js";
+import axios from "axios";
+import {getApiConfig} from "../../../../functions/getApiConfig.js";
 
 const BetsGroupRight = () => {
 
@@ -11,22 +13,26 @@ const BetsGroupRight = () => {
     //show value pairs from redux
     const selectPair = useSelector(state => state.selectPairs.pair);
 
+    useEffect(() => {
+        axios(getApiConfig("/markets"))
+            .then(res => console.log(res.data))
+            .catch(err => console.log(err))
+    },[])
+
     return (
         <div className={"BetsGroupRight right"}>
-            <header className={"w-100"}>
-                <Form.Select
-                    onChange={e => {dispatch(setPair(e.target.value))}}
-                    size={"sm"}
-                >
-                    {
-                        pairs.map(elem => (
-                            <option key={elem} value={elem}>
-                                {elem.slice(0,3)} / {elem.slice(3,elem.length)}
-                            </option>
-                        ))
-                    }
-                </Form.Select>
-            </header>
+            <Form.Select
+                onChange={e => {dispatch(setPair(e.target.value))}}
+                size={"sm"}
+            >
+                {
+                    pairs.map(elem => (
+                        <option key={elem} value={elem}>
+                            {elem.slice(0,3)} / {elem.slice(3,elem.length)}
+                        </option>
+                    ))
+                }
+            </Form.Select>
 
             <div className="now-price">
                 <h5 className={"m-0"}>

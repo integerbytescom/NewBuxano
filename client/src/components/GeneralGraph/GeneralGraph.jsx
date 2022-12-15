@@ -9,18 +9,20 @@ const GeneralGraph = () => {
     const selectPair = useSelector(state => state.selectPairs.pair);
     console.log("select pair coins: ",selectPair);
 
-    return (
-        <div className={"GeneralGraph"}>
-            <AdvancedRealTimeChart
-                theme="dark"
-                autosize
-                symbol={selectPair}
-                save_image={false}
-                style={"3"}
-                chart_property_page_background={false}
-            />
-        </div>
-    );
+    if (Object.values(selectPair)){
+        return (
+            <div className={"GeneralGraph"}>
+                <AdvancedRealTimeChart
+                    theme="dark"
+                    autosize
+                    symbol={selectPair}
+                    save_image={false}
+                    style={"3"}
+                    chart_property_page_background={false}
+                />
+            </div>
+        );
+    }
 };
 
 export default GeneralGraph;
