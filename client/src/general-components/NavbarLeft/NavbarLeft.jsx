@@ -1,11 +1,11 @@
 import React from 'react';
 import MenuLeft from "./components/MenuLeft/MenuLeft.jsx";
+import {useDispatch, useSelector} from "react-redux";
+import {setShow} from "../../redux-features/navbarLeftSlice.js";
+import {setPage} from "../../redux-features/selectNavbarPageSlice.js";
 
 //css
 import "./NavbarLeft.css";
-import {useDispatch, useSelector} from "react-redux";
-import {setShow} from "../../redux-features/navbarLeftSlice.js";
-import NavbarPages from "../../components/NavbarPages/NavbarPages.jsx";
 
 const NavbarLeft = () => {
 
@@ -16,6 +16,14 @@ const NavbarLeft = () => {
     console.log("show nav: ",showNav);
     console.log("show page: ",showPage);
 
+    //если закрываем меню то и страницу показа убираем
+    const handleOpenMenu = () => {
+        if (showNav && showPage.link){
+            dispatch(setPage({}));
+        }
+        dispatch(setShow())
+    }
+
     return (
         <div className={`NavbarLeft ${showNav}`}>
 
@@ -25,7 +33,7 @@ const NavbarLeft = () => {
             {/*left menu*/}
             <MenuLeft open={showNav} showPage={showPage} />
 
-            <div className="right" onClick={() => dispatch(setShow())}>
+            <div className="right" onClick={() => handleOpenMenu()}>
                 <img
                     height={25}
                     src="/components/NavbarLeft/arrow.svg"

@@ -2,7 +2,10 @@
 import {createSlice} from "@reduxjs/toolkit";
 
 const initialState = {
-    page:"",
+    page:{
+        link:"",
+        title:"",
+    },
 };
 
 export const selectNavbarPageSlice = createSlice({

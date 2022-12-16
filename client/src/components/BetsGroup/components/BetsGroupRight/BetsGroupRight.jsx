@@ -1,10 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import "./BetsGroupRight.css";
 import {Form} from "react-bootstrap";
 import {useDispatch, useSelector} from "react-redux";
 import {setPair} from "../../../../redux-features/selectPairsSlice.js";
-import axios from "axios";
-import {getApiConfig} from "../../../../functions/getApiConfig.js";
 
 const BetsGroupRight = () => {
 
@@ -13,11 +11,11 @@ const BetsGroupRight = () => {
     //show value pairs from redux
     const selectPair = useSelector(state => state.selectPairs.pair);
 
-    useEffect(() => {
-        axios(getApiConfig("/markets"))
-            .then(res => console.log(res.data))
-            .catch(err => console.log(err))
-    },[])
+    // useEffect(() => {
+    //     axios(getApiConfig("/markets"))
+    //         .then(res => console.log(res.data))
+    //         .catch(err => console.log(err))
+    // },[])
 
     return (
         <div className={"BetsGroupRight right"}>

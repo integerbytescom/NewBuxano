@@ -1,50 +1,71 @@
 export const menuLeftData = [
-    {
-        id:1,
-        icon:"/components/NavbarLeft/icons/1.svg",
-        text:"Trading",
-        link:"trading",
-    },
+    // {
+    //     id:1,
+    //     icon:"/components/NavbarLeft/icons/1.svg",
+    //     text:"Trading",
+    //     link:"trading",
+    // },
     {
         id:2,
         icon:"/components/NavbarLeft/icons/2.svg",
         text:"Billing",
-        link:"billing",
+        link:false,
+        innerLinks:[
+            {
+                id:21,
+                text:"Deposit funds",
+                link:"deposit",
+            },
+            {
+                id:22,
+                text:"Withdraw funds",
+                link:"withdraw",
+            },
+        ],
     },
     {
         id:3,
         icon:"/components/NavbarLeft/icons/3.svg",
         text:"Settings",
-        link:"settings",
+        link:false,
+        innerLinks:[
+            {
+                id:31,
+                text:"Profile",
+                link:"userProfile",
+            },
+            {
+                id:32,
+                text:"Reset password",
+                link:"resetPassword",
+            },
+            {
+                id:33,
+                text:"2FA Authentication",
+                link:"2faAuth",
+            },
+            {
+                id:34,
+                text:"Notifications",
+                link:"notifications",
+            },
+            {
+                id:35,
+                text:"API Keys",
+                link:"apiKeys",
+            },
+        ],
     },
     {
         id:4,
-        icon:"/components/NavbarLeft/icons/4.svg",
-        text:"Theme",
-        link:"theme",
-    },
-    {
-        id:5,
-        icon:"/components/NavbarLeft/icons/5.svg",
-        text:"Referral",
-        link:"referral",
-    },
-    {
-        id:6,
         icon:"/components/NavbarLeft/icons/6.svg",
         text:"Funds",
         link:"funds",
     },
     {
-        id:7,
+        id:5,
         icon:"/components/NavbarLeft/icons/7.svg",
         text:"Tour",
         link:"tour",
-    },
-    {
-        id:8,
-        icon:"/components/NavbarLeft/icons/8.svg",
-        text:"Sign Out",
-        link:"sigOut",
     },
 ]

@@ -1,0 +1,26 @@
+.HeaderBack{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+/*button back*/
+.HeaderBack button{
+    margin-bottom: 2em;
+    padding: .25em 1em;
+    display: flex;
+    align-items: center;
+    background: #4574FF;
+    border-radius: 2em;
+    border: none;
+    transition: .3s;
+}
+.HeaderBack button img{
+    transform: rotate(180deg);
+    margin-right: .75em;
+    width: 10px;
+}
+.HeaderBack button:hover{
+    background: #949ECD;
+    padding: .25em 2em;
+}

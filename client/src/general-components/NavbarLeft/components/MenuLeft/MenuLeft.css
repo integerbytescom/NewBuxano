@@ -37,9 +37,39 @@
     margin: .35em 0;
 }
 .NavbarLeft .MenuLeft .menu p img{
+    width: 25px;
     margin-right: .5em;
 }
 /*hover*/
-.NavbarLeft .MenuLeft .menu p:hover{
+.NavbarLeft .MenuLeft .menu p:hover,
+.MenuLeftItem.more ul li:hover{
     opacity: .5;
+}
+
+/*item more*/
+.MenuLeftItem.more{
+    position: relative;
+}
+.MenuLeftItem.more img.arrow{
+    width: 8px !important;
+    position: absolute;
+    left: -13px;
+    transform: rotate(90deg);
+    transition: .2s;
+}
+.MenuLeftItem.more img.arrow.open{
+    transform: rotate(270deg);
+}
+
+/*ul for inner link items*/
+.MenuLeftItem.more ul{
+    margin: 0;
+    padding: 0 0 0 calc(25px + .5em);
+    font-size: 14px;
+    font-weight: 300;
+    list-style: none;
+}
+.MenuLeftItem.more ul li{
+    transition: .2s;
+    cursor: pointer;
 }

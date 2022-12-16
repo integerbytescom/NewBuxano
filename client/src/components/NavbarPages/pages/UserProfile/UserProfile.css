@@ -1,0 +1,18 @@
+.UserProfile header{
+    flex-direction: row !important;
+    align-items: center;
+}
+.UserProfile header img{
+    width: 100px;
+}
+.UserProfile header span{
+    margin-left: 1em;
+}
+.UserProfile header span h5{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.UserProfile header span p{
+    font-weight: 200;
+    color: #949ECD;
+}

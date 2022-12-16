@@ -1,12 +1,18 @@
 import React from 'react';
 import "./NavbarPages.css";
-import {Button} from "react-bootstrap";
+import HeaderBack from "./components/HeaderBack/HeaderBack.jsx";
+import WithdrawFunds from "./pages/WithdrawFunds/WithdrawFunds.jsx";
+import DepositFunds from "./pages/DepositFunds/DepositFunds.jsx";
+import UserProfile from "./pages/UserProfile/UserProfile.jsx";
 
 const NavbarPages = ({page,setNavPage}) => {
     return (
         <div className={"NavbarPages"}>
-            <Button size={"sm"} onClick={() => setNavPage("")}>Back</Button>
-            <h1>{page}</h1>
+            <HeaderBack page={page} setNavPage={setNavPage} />
+
+            {page.link === "withdraw" && <WithdrawFunds />}
+            {page.link === "deposit" && <DepositFunds />}
+            {page.link === "userProfile" && <UserProfile />}
         </div>
     );
 };

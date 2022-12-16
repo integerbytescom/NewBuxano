@@ -3,7 +3,7 @@ import "./MenuLeftHeader.css";
 
 const MenuLeftHeader = ({open}) => {
     return (
-        <header className={"MenuLeftHeader"}>
+        <header className={`MenuLeftHeader ${open}`}>
             <div className="logo">
                 {
                     open ?
