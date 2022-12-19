@@ -21,6 +21,6 @@
     width: 10px;
 }
 .HeaderBack button:hover{
-    background: #949ECD;
+    background: var(--blue-gray);
     padding: .25em 2em;
 }

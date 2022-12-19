@@ -73,3 +73,20 @@
     transition: .2s;
     cursor: pointer;
 }
+
+/*ul styles for theme and notification list*/
+.MenuLeftItem.more ul.theme-notif-ul li{
+    padding: .25em 0;
+    display: flex;
+    align-items: center;
+}
+.MenuLeftItem.more ul.theme-notif-ul li:hover,
+.MenuLeftItem.more ul.theme-notif-ul li p:hover{
+    opacity: 1;
+    cursor: auto;
+}
+.MenuLeftItem.more ul.theme-notif-ul li p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 0 .75em !important;
+}

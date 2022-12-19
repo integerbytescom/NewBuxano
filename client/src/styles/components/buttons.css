@@ -1,0 +1,10 @@
+/*button*/
+button.green-but{
+    width: 100%;
+    border-radius: .25em;
+    background: var(--green-but);
+    border: none;
+}
+button.green-but:hover{
+    background: #4D9FE3;
+}

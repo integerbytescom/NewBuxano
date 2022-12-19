@@ -18,6 +18,9 @@
     --navbar-gradient: linear-gradient(190.48deg, #1B277F -6.03%, #14195E 75.47%);
 
     --but-disabled:linear-gradient(270deg, #4482A6 0%, #1D296B 100%);
+
+    --blue-gray:#949ECD;
+    --green-but:#28A745;
 }
 
 body{
@@ -35,6 +38,6 @@ body{
     width: 5px; /* ширина всей полосы прокрутки */
 }
 *::-webkit-scrollbar-thumb {
-    background-color: #949ECD;    /* цвет бегунка */
+    background-color: var(--blue-gray);    /* цвет бегунка */
     border-radius: 20px;       /* округлось бегунка */
 }

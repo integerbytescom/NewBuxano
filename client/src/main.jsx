@@ -8,7 +8,9 @@ import {Provider} from "react-redux";
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 //styles
-import './styles/index.css'
+import './styles/index.css';
+import './styles/components/inputs.css';
+import './styles/components/buttons.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
         <React.StrictMode>

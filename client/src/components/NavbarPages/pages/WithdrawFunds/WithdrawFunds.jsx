@@ -16,18 +16,18 @@ const WithdrawFunds = () => {
 
             <div className={"inp-container"}>
                 <label>Address</label>
-                <FormControl type={"number"} size={"sm"} />
+                <FormControl className={"inp-blue"} type={"number"} size={"sm"} />
             </div>
 
             <div className={"inp-container"}>
                 <label>Amount in BTC currency</label>
-                <FormControl type={"number"} size={"sm"} />
+                <FormControl className={"inp-blue"} type={"number"} size={"sm"} />
                 <p className="small m-0">
                     Minimum 0.0006 BTC
                 </p>
             </div>
 
-            <Button size={"sm"}>Confirm</Button>
+            <Button className={"green-but"} size={"sm"}>Confirm</Button>
         </div>
     );
 };

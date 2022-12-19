@@ -1,0 +1,52 @@
+.TwoFaAuth{
+    color: var(--blue-gray)
+}
+
+/*block*/
+.TwoFaAuth .block{
+    padding: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TwoFaAuth img.qr-code{
+    width: 150px;
+    height: auto;
+    border-radius: .25em;
+    margin: 0 0 1.5em 0;
+}
+
+/*text*/
+.TwoFaAuth p,
+.TwoFaAuth h5{
+    width: 100%;
+    margin: 0;
+}
+.TwoFaAuth h5{
+    font-weight: 600;
+}
+.TwoFaAuth p.key{
+    font-weight: 600;
+    text-align: center;
+    cursor: grab;
+    color: var(--main-bg);
+    transition: .3s;
+    background: var(--bs-white);
+    border-radius: .25em;
+    padding: .25em 1em;
+}
+.TwoFaAuth p.key:hover{
+    background: var(--green-but);
+    color: var(--bs-white);
+}
+
+/*input placeholder*/
+.TwoFaAuth input::placeholder{
+    color: var(--white-op-50);
+}
+
+/*hr*/
+.TwoFaAuth hr{
+    width: 75%;
+    margin: 1.5em auto;
+}

@@ -45,11 +45,6 @@ export const menuLeftData = [
                 link:"2faAuth",
             },
             {
-                id:34,
-                text:"Notifications",
-                link:"notifications",
-            },
-            {
                 id:35,
                 text:"API Keys",
                 link:"apiKeys",

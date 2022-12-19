@@ -1,0 +1,20 @@
+/*input*/
+input.inp-blue,
+select.inp-blue{
+    padding: .25em;
+    background: none;
+    border: 1px solid #4D9FE3;
+    color: var(--bs-white) !important;
+    font-weight: 300;
+}
+input.inp-blue:focus,
+select.inp-blue:focus{
+    background: none;
+    border: 1px solid var(--bs-white);
+}
+
+/*select options*/
+select option{
+    color: var(--bs-dark);
+    text-align: center;
+}

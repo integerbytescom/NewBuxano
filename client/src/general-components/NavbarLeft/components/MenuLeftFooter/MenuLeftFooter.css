@@ -11,7 +11,7 @@
 
 .NavbarLeft .MenuLeft footer button{
     background: none;
-    border: 1px solid #949ECD;
+    border: 1px solid var(--blue-gray);
     border-radius: 2em;
     padding: .25em 0;
 
@@ -33,6 +33,6 @@
 }
 .NavbarLeft .MenuLeft footer button p{
     margin: 0 0 0 .5em;
-    color: #949ECD;
+    color: var(--blue-gray);
     font-weight: 500;
 }

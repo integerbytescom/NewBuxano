@@ -1,0 +1,37 @@
+.CircleCheck {
+    display: block;
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.CircleCheck div {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    top: -26px;
+    left: -26px;
+    position: absolute;
+    transform: rotateZ(45deg);
+    z-index: 100;
+}
+
+.CircleCheck input[type=checkbox]:checked + div {
+    left: -5px;
+    top: -5px;
+}
+
+.CircleCheck input[type=checkbox] {
+    position: absolute;
+    left: 25px;
+    visibility: hidden;
+}
+
+.CircleCheck {
+    transition: 300ms ease !important;
+}

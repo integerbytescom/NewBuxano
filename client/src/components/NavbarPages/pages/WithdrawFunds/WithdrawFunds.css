@@ -1,6 +1,6 @@
 .WithdrawFunds p.small{
     font-weight: 300;
-    color: #949ECD;
+    color: var(--blue-gray);
 }
 
 .WithdrawFunds .inp-container{
@@ -11,28 +11,4 @@
 .WithdrawFunds label{
     font-weight: 200;
     margin-bottom: .25em;
-}
-
-/*input*/
-.WithdrawFunds input{
-    padding: .5em;
-    background: none;
-    border: 1px solid #4D9FE3;
-    color: var(--bs-white) !important;
-    font-weight: 300;
-}
-.WithdrawFunds input:focus{
-    background: none;
-    border: 1px solid var(--bs-white);
-}
-
-/*button*/
-.WithdrawFunds button{
-    width: 100%;
-    border-radius: .25em;
-    background: #28A745;
-    border: none;
-}
-.WithdrawFunds button:hover{
-    background: #4D9FE3;
 }

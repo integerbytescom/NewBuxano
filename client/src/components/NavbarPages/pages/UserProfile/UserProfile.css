@@ -15,7 +15,7 @@
 }
 .UserProfile header span p{
     font-weight: 200;
-    color: #949ECD;
+    color: var(--blue-gray);
 }
 
 /*FORM*/
@@ -37,30 +37,19 @@
 }
 
 /*inputs*/
-.UserProfile form .form-group input,
-.UserProfile form .form-group select{
-    background: none;
-    border:1px solid #4D9FE3;
-    color: var(--bs-white);
-    font-weight: 300;
+.UserProfile input[type="file"]{
+    padding: 0.25rem 0.5rem !important;
 }
-.UserProfile form .form-group input:focus,
-.UserProfile form .form-group input:hover{
-    border:1px solid var(--bs-white);
+.UserProfile input,
+.UserProfile select{
+    font-weight: 500 !important;
 }
 
 /*checks*/
 .UserProfile form .check-container{
     padding: .75em 0;
 }
-
-/*button*/
-.UserProfile button{
-    width: 100%;
-    border-radius: .25em;
-    background: #28A745;
-    border: none;
-}
-.UserProfile button:hover{
-    background: #4D9FE3;
-}
+/*.UserProfile .form-check-input{*/
+/*    width: 30px !important;*/
+/*    height: 18px;*/
+/*}*/
