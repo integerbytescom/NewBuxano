@@ -21,6 +21,11 @@ export const menuLeftData = [
                 text:"Withdraw funds",
                 link:"withdraw",
             },
+            {
+                id:23,
+                text:"Transaction history",
+                link:"transHistory",
+            },
         ],
     },
     {

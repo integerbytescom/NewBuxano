@@ -6,6 +6,7 @@ import DepositFunds from "./pages/DepositFunds/DepositFunds.jsx";
 import UserProfile from "./pages/UserProfile/UserProfile.jsx";
 import ResetPassword from "./pages/ResetPassword/ResetPassword.jsx";
 import TwoFaAuth from "./pages/TwoFaAuth/TwoFaAuth.jsx";
+import TransactionHistory from "./pages/TransactionHistory/TransactionHistory.jsx";
 
 const NavbarPages = ({page,setNavPage}) => {
     return (
@@ -17,6 +18,7 @@ const NavbarPages = ({page,setNavPage}) => {
             {page.link === "userProfile" && <UserProfile />}
             {page.link === "resetPassword" && <ResetPassword />}
             {page.link === "2faAuth" && <TwoFaAuth />}
+            {page.link === "transHistory" && <TransactionHistory />}
         </div>
     );
 };

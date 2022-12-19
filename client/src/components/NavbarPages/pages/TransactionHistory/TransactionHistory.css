@@ -1,0 +1,8 @@
+.TransactionHistory{
+    padding-top: 1em;
+}
+.TransactionHistory table{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--blue-gray);
+}

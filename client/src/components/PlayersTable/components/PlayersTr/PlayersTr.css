@@ -43,7 +43,7 @@
 
 .PlayersTr td.dots{
     padding: 0 .75em;
-    background: #4574FF;
+    background: var(--light-blue);
     transition: .3s;
     cursor: pointer;
 }

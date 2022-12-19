@@ -10,7 +10,7 @@
     padding: .25em 1em;
     display: flex;
     align-items: center;
-    background: #4574FF;
+    background: var(--light-blue);
     border-radius: 2em;
     border: none;
     transition: .3s;
