@@ -11,6 +11,9 @@
     padding: 2em 1em;
     width: 100%;
 }
+.NavbarLeft .MenuLeft.open.center{
+    align-content: center;
+}
 
 /*left block*/
 

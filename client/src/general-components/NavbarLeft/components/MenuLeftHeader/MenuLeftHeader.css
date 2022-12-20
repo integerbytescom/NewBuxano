@@ -10,24 +10,19 @@
 .NavbarLeft .MenuLeft header .user.open{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
 }
 .NavbarLeft .MenuLeft header .user.open .content{
     width: 100%;
-    margin-top: .5em;
+    margin-left: 1em;
     color: var(--bs-white);
-    text-align: center;
 }
 .NavbarLeft .MenuLeft header .user img{
     border-radius: 50%;
 }
 .NavbarLeft .MenuLeft header .user.open img{
-    width: 85px;
-}
-.NavbarLeft .MenuLeft header .user.open .content h6{
-    margin-bottom: 0;
+    width: 115px;
 }
 .NavbarLeft .MenuLeft header .user.open .content p.small{
     opacity: .5;
-    margin-bottom: 0;
 }

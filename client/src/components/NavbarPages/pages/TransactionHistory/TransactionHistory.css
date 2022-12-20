@@ -6,3 +6,11 @@
     flex-wrap: wrap;
     color: var(--blue-gray);
 }
+
+.TransactionHistory.noData{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue-gray);
+}

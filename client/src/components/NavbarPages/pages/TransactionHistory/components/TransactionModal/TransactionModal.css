@@ -1,0 +1,58 @@
+.TransactionModal .modal-content{
+    border: none;
+    border-radius: .25em;
+    background: linear-gradient(180deg, #7E92EC 16.34%, #ACB9F2 41.18%, #D5DAF2 100%);
+}
+
+/*header*/
+.TransactionModal .modal-header{
+    border-bottom: none;
+    color: var(--bs-white);
+}
+.TransactionModal .modal-header h5{
+    font-weight: 600;
+}
+
+/*container for inner blocks*/
+.TransactionModal .block{
+    display: flex;
+    align-items: center;
+}
+.TransactionModal .inner{
+    display: flex;
+    align-items: center;
+    margin:0 1em .75em 0;
+    padding: .5em 1em;
+    background: #3944AE;
+    border-radius: 2em;
+}
+.TransactionModal .inner.amount{
+    background: var(--bs-white);
+}
+.TransactionModal p{
+    color: var(--bs-white);
+    margin: 0;
+}
+.TransactionModal p.title{
+    color: var(--main-bg);
+    padding-left: 1em;
+    font-weight: 500;
+}
+.TransactionModal p.amount{
+    font-weight: 600;
+    color: var(--green-but);
+}
+.TransactionModal p.amount.red{
+    color: var(--red-but);
+}
+.TransactionModal p.dark{
+    font-weight: 600;
+    color: var(--main-bg);
+}
+
+.line{
+    width: 1px;
+    height: 20px;
+    background: var(--light-blue);
+    margin: 0 .35em;
+}

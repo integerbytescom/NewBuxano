@@ -17,8 +17,8 @@ const MenuLeftHeader = ({open}) => {
                 {
                     open &&
                     <div className="content">
-                        <h6>User</h6>
-                        <p className="small">
+                        <h6 className="m-0">User</h6>
+                        <p className="small m-0">
                             buxano@gmail.com
                         </p>
                     </div>

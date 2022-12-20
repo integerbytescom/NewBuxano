@@ -1,23 +1,30 @@
 import React from 'react';
-import {Table} from "react-bootstrap";
 import "./TransactionHistory.css";
 import {TransactionHistoryData} from "./TransactionHistoryData.js";
 import TransactionHistoryItem from "./components/TransactionHistoryItem/TransactionHistoryItem.jsx";
 
 const TransactionHistory = () => {
-    return (
-        <div className={"TransactionHistory"}>
-            <table className={"w-100"}>
-                {/*<thead className={"w-100"}>*/}
-                {/*    <tr className={"w-100 d-table"}>*/}
-                {/*        <th>Date</th>*/}
-                {/*        <th>Amount</th>*/}
-                {/*        <th>Trade ID</th>*/}
-                {/*        <th>More Info</th>*/}
-                {/*    </tr>*/}
-                {/*</thead>*/}
 
-                <tbody className={"w-100"}>
+    // const TransactionHistoryData = undefined;
+
+    if (TransactionHistoryData && TransactionHistoryData.length){
+        return (
+            <div className={"TransactionHistory"}>
+                <table className={"w-100"}>
+                    <tr className={"TransactionHistoryItem small head"}>
+                        <td className={"date clear"}>
+                            Date
+                        </td>
+                        <td className={"amount clear"}>
+                            Amount
+                        </td>
+                        <td className={"tradeId clear"}>
+                            Trade Id
+                        </td>
+                        <td className={"st clear"} />
+                    </tr>
+
+                    <tbody className={"w-100"}>
                     {
                         TransactionHistoryData.map(trans => (
                             <TransactionHistoryItem
@@ -26,10 +33,19 @@ const TransactionHistory = () => {
                             />
                         ))
                     }
-                </tbody>
-            </table>
-        </div>
-    );
+                    </tbody>
+                </table>
+            </div>
+        );
+    }else {
+        return (
+            <div className={"TransactionHistory noData"}>
+                <p className={"m-0"}>
+                    No transactions
+                </p>
+            </div>
+        );
+    }
 };
 
 export default TransactionHistory;

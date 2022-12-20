@@ -24,7 +24,7 @@ const MenuLeft = ({open,showPage}) => {
     const [showNotif,setShowNotif] = useState(false);
 
     return (
-        <div className={`MenuLeft ${open}`}>
+        <div className={`MenuLeft ${open} ${showPage.link ? "center" : ""}`}>
 
             {
                 !showPage.link &&
